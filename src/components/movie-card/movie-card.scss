@@ -8,14 +8,10 @@
 .title {
     min-height: 60px;
     display: -webkit-box;
-    /* Enable the box model for truncation */
     -webkit-line-clamp: 2;
     line-clamp: 2;
-    /* Number of lines to limit */
     -webkit-box-orient: vertical;
-    /* Orient the box vertically */
     overflow: hidden;
-    /* Hide overflowing content */
     text-overflow: ellipsis;
 }
 

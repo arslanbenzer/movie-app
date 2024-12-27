@@ -6,7 +6,6 @@ import { MovieListItem, MovieRequest, MovieType } from "../typings";
 import { useState } from "react";
 import { useDebounce } from "use-debounce";
 import moment from "moment";
-import { Outlet } from "react-router-dom";
 
 const useMovies = (currentPage: number, s: string, type: MovieType | null, y: string | null) => {
     const request: MovieRequest = {

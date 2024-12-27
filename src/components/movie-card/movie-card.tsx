@@ -11,7 +11,7 @@ type MovieCardProps = {
 export const MovieCard = ({ ...props }: MovieCardProps) => {
     let navigate = useNavigate()
 
-    const { Poster, Title, Type, Year, imdbID } = props.movie;
+    const { Poster, Title, Year, imdbID } = props.movie;
 
     return (
         <Card withBorder radius="lg" p="md" className="card" >
